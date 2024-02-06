@@ -19,7 +19,7 @@ module "POCTerraformRole" {
 
   trusted_role_arns = [
     "arn:aws:iam::${var.state_account_id}:root",
-    "arn:aws:iam::599654392735:role/mapi-i01-aws-us-east-2-argocd-server-sa"
+    "arn:aws:iam::<prod-aws-account-id>:role/mapi-i01-aws-us-east-2-argocd-server-sa"
   ]
 }
 
